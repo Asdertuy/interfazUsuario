@@ -76,6 +76,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C0B49CD126E071CE00EAF083 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C0B49CD326E0722400EAF083 /* ValueObject */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C0B49CD326E0722400EAF083 /* ValueObject */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ValueObject;
+			sourceTree = "<group>";
+		};
 		C0C9D36826DAD34300FF5B28 = {
 			isa = PBXGroup;
 			children = (
@@ -99,6 +114,7 @@
 		C0C9D37326DAD34300FF5B28 /* EcuacionDe2doGrado */ = {
 			isa = PBXGroup;
 			children = (
+				C0B49CD126E071CE00EAF083 /* Model */,
 				C0C9D37426DAD34300FF5B28 /* AppDelegate.swift */,
 				C0C9D37626DAD34300FF5B28 /* SceneDelegate.swift */,
 				C0C9D37826DAD34300FF5B28 /* ViewController.swift */,
